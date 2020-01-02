@@ -25,4 +25,25 @@
         android:layout_height="wrap_content"
         android:text="isConnected"/>
 
+    <Button
+        android:id="@+id/btn_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send_message"/>
+    <Button
+        android:id="@+id/btn_register_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register_listener"/>
+    <Button
+        android:id="@+id/btn_unregister_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unregister_listener"/>
+    <Button
+        android:id="@+id/btn_messenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendByMessenger"/>
+
 </LinearLayout>
