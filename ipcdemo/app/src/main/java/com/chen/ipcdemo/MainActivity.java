@@ -20,6 +20,7 @@ import com.chen.ipcdemo.entity.Message;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    
     private Button buttonConnect;
     private Button buttonDisConnect;
     private Button buutonIsConnected;
