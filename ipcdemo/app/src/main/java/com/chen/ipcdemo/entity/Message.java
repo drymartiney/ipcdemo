@@ -26,6 +26,7 @@ public class Message implements Parcelable {
     public Message() {
     }
 
+    
     protected Message(Parcel in) {
         this.content = in.readString();
         this.isSendSuccess = in.readByte() != 0;
